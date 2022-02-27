@@ -1,6 +1,6 @@
 # Time-Series-on-Restaurant-Visitors
 
-# 1. INTRODUCTION
+## 1. INTRODUCTION
 
 There is a steady increase of restaurants in the 21st century and running a local restaurant is not an easy job.
 The number of visitors to a restaurant for a period of
@@ -18,7 +18,7 @@ Box and Jenkins is popular as it yields most accurate forecasting results. A stu
 restaurants in Japan over a period of 2016–2017 to create
 models.
 
-# 2. PURPOSE OF TIME SERIES IN PROCESSING
+## 2. PURPOSE OF TIME SERIES IN PROCESSING
 
 A time series is a structured dataset that can be annual,
 monthly, or in this case daily. The visit data and reserve
@@ -39,7 +39,7 @@ data of date and time. The next important feature is seasonal variation, where s
 These are the parameters of time series considered in this
 paper.
 
-# 3. FORECASTING OF VISITORS USING ARIMA
+## 3. FORECASTING OF VISITORS USING ARIMA
 
 The main technique being explored is ARIMA which is a
 forecasting technique that projects the future values of a
@@ -50,12 +50,12 @@ model determines the dependence on previous time points.
 The data is split into training set and testing set. The training period was different to testing period as there are different cuisine restaurants in this case. So, the train period
 is shortened and the test period too. Here period is weekly
 cycle and the visitors per cuisine and per restaurant is valuated. These data are taken for training to the ARIMA
-model. As ARIMA model uses p d q the series should
+model. As ARIMA model uses p d q the series should
 be made stationary and choosing of order models with
 ACF and PACF for fitting the ARIMA to the state of train
 is fixed.
 
-# 4. PERFORMANCE MEASURES USING RMSE AND MAPE
+## 4. PERFORMANCE MEASURES USING RMSE AND MAPE
 
 The prediction of visitor arrivals during testing is done
 and the measures of accuracy were calculated. Root mean
@@ -78,7 +78,7 @@ than MAPE because it is steady and RMSE does not necessarily increase with the v
 increases with the variance of the frequency distribution
 of error magnitudes. Hence RMSE is better.
 
-# 5. CONCLUSION
+## 5. CONCLUSION
 
 This explores a growing trend in the future of restaurants by forecasting the number of visitors each day. In this
 study the time series forecasting model ARIMA is functional. Based on the above an efficient prediction of visitors to come in future was analyzed for the profits of the
@@ -93,4 +93,4 @@ focusing with the development of creating an enjoyable
 dining experience for the visitors. As far as the experimental results, the system thus proposed works well in
 forecasting visitors and is robust too.
 
-# 6. Cited: Article  in  Journal of Computational and Theoretical Nanoscience · May 2018
+## 6. Cited: Article  in  Journal of Computational and Theoretical Nanoscience · May 2018
